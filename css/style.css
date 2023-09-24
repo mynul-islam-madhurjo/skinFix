@@ -5,6 +5,7 @@ body {
   overflow-x: hidden;
   font-size: 14px;
   color: #391797;
+  font-weight: 450;
 }
 a {
   color: #391797;
@@ -371,7 +372,7 @@ h4 {
 }
 .hero {
   padding: 7rem 0 10rem 0;
-  background-color: rgba(33, 6, 82, 0.75);
+  background-color: rgb(102, 74, 179);
   margin-bottom: 100px;
 }
 
@@ -390,7 +391,7 @@ h4 {
 .hero h1 .typed-words:before {
   position: absolute;
   height: 7px;
-  background-color: #673fc2;
+  background-color: #8e84e2;
   bottom: 0;
   left: 0;
   right: 0;
@@ -809,7 +810,7 @@ h4 {
   margin-bottom: 30px;
 }
 .untreg_co-section.custom-margin {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .owl-3-slider {
   padding-bottom: 80px;
@@ -870,19 +871,19 @@ h4 {
   padding-bottom: 80px;
 }
 .untreyy_co-section.custom-margin {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .untrey_co-section.custom-margin {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .untrez_co-section.custom-margin {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .untrev_co-section.custom-margin {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .untrel_co-section.custom-margin {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .box {
   border: 1px solid #ccc;
@@ -1104,6 +1105,10 @@ h4 {
   padding: 0 !important;
 }
 
-#contact .container h2{
+#contact .container h2 {
   padding-left: 15px;
+}
+.doctors.custom-margin {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
