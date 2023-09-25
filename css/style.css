@@ -1118,7 +1118,6 @@ h4 {
 .site-menu.active {
   display: block;
 }
-/* Styles for the Burger Menu Button */
 .menu-button {
   display: flex;
   flex-direction: column;
@@ -1131,8 +1130,6 @@ h4 {
   background-color: #333;
   margin: 4px 0;
 }
-
-/* Styles for the Navigation Menu (Initially Hidden) */
 .menu {
   list-style: none;
   padding: 0;
