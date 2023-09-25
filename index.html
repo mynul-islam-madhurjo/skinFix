@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><nav class="site-nav">
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -134,7 +134,17 @@
           >
             <span></span>
           </a>
-         
+          <script>
+            const burgerMenuIcon = document.querySelector('.burger');
+            const siteMenu = document.querySelector('.site-menu');
+          
+            burgerMenuIcon.addEventListener('click', function() {
+              // Toggle the class that controls the menu visibility
+              siteMenu.classList.toggle('active');
+            });
+          </script>
+          
+        </body>
         </div>
       </div>
     </nav>

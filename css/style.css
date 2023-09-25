@@ -1112,3 +1112,47 @@ h4 {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.site-menu {
+  display: none;
+}
+.site-menu.active {
+  display: block;
+}
+/* Styles for the Burger Menu Button */
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+}
+
+/* Styles for the Navigation Menu (Initially Hidden) */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none; /* Initially hidden */
+}
+
+.menu li {
+  margin: 10px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Media Query for Mobile Menu Display */
+@media (max-width: 768px) {
+  .menu {
+    display: block; /* Display when the screen size is smaller */
+  }
+}
