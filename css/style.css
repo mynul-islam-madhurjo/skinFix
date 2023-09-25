@@ -1147,9 +1147,14 @@ h4 {
   font-weight: bold;
 }
 
-/* Media Query for Mobile Menu Display */
 @media (max-width: 768px) {
   .menu {
     display: block; /* Display when the screen size is smaller */
   }
+}
+.feature-img-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%; /* Set a fixed height to ensure full visibility */
 }
