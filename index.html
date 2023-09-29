@@ -123,19 +123,20 @@
               </div>
             </li>
           </ul>
+          <a
+          href="#"
+          class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
+          data-toggle="collapse"
+          data-target="#main-navbar"
+        >
+          <span></span>
+        </a>
         </div>
       </div>
     </nav>
           
          
-          <a
-            href="#"
-            class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light"
-            data-toggle="collapse"
-            data-target="#main-navbar"
-          >
-            <span></span>
-          </a>
+         
           <script>
             const burgerMenuIcon = document.querySelector('.burger');
             const siteMenu = document.querySelector('.site-menu');
@@ -238,13 +239,13 @@
     </div>
     <div class="untrev_co-section custom-margin">
       <div class="container">
-          <div class="row text-center justify-content-center mb-5">
-              <div class="col-lg-7">
-                  <div class="section-title">
-                      <h2>About SkinFix</h2>
-                  </div>
-              </div>
+        <div class="row text-center justify-content-center mb-5">
+          <div class="col-lg-7">
+            <div class="section-title">
+              <h2>About SkinFix</h2>
+            </div>
           </div>
+        </div>
           <section id="features" class="features">
               <div class="container">
                   <div class="box">
@@ -1399,6 +1400,21 @@ At SkinFix by Dr. Rimita Farid, experience the benefits of Injection Lipolysis, 
   }
   const nonce = generateNonce();
   console.log(nonce);
+    </script>
+    <script>
+      $(document).ready(function() {
+  var nav = $('.site-nav');
+  var navOffset = nav.offset().top;
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > navOffset) {
+      nav.addClass('fixed');
+    } else {
+      nav.removeClass('fixed');
+    }
+  });
+});
+
     </script>
     
 
